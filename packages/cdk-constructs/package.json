@@ -1,0 +1,30 @@
+{
+  "name": "cdk-constructs",
+  "version": "0.0.0",
+  "description": "CDK Constructs that can be reused in the platform",
+  "keywords": [
+    "ckd",
+    "constructos"
+  ],
+  "author": "tebayoso <tebayoso@gmail.com>",
+  "homepage": "https://github.com/eulertools/platform-core#readme",
+  "license": "ISC",
+  "main": "lib/cdk-constructs.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eulertools/platform-core.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/cdk-constructs.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/eulertools/platform-core/issues"
+  }
+}
